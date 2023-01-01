@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+body {
+  position: relative;
+}
+.title a {
+  color: white;
+}
+
+a.services {
+  color: #a9508b;
+}
+
+.nav h1 {
+  font-size: 1.7rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  color: white;
+  background-color: #35424a;
+  padding: 0.8rem;
+  border-bottom: 1px solid magenta;
+}
+.nav span {
+  color: #a9508b;
+}
+.home,
+.about {
+  color: white;
+}
+
+.right-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+  font-size: 0.7rem;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35424a;
+  color: white;
+  padding: 1.4rem;
+}
+
+.right input {
+  padding: 0.3rem;
+  border: none;
+}
+
+.right button {
+  padding: 0.3rem;
+  background-color: #e8491d;
+  color: white;
+  border: none;
+}
+a.services {
+  color: #a9508b;
+}
+
+.right button:hover {
+  cursor: pointer;
+  background-color: #ee562c;
+}
+
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  padding: 1rem 5rem;
+  gap: 4rem;
+  font-size: 0.9rem;
+}
+
+.main-box .left-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.4rem;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.main-box .left-box h4 {
+  padding-bottom: 0.5rem;
+}
+
+.main-box .card {
+  background-color: #ebebeb;
+  padding: 1.8rem 1rem;
+  box-shadow: 0 0 0px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+*/ .main-box .left-box .card-3 {
+  margin-bottom: 6rem;
+}
+
+.main-box .right-box {
+  background-color: #35424a;
+  color: white;
+  padding: 1rem 1rem;
+  flex-basis: 45%;
+}
+
+.main-box .right-box .form-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main-box .right-box .form-box form input,
+textarea {
+  margin: 1rem;
+  width: 98%;
+  resize: none;
+  height: 1.8rem;
+  margin: 2px 0;
+  padding: 0.2rem 0.3rem;
+}
+
+.main-box .right-box .form-box form label {
+  text-align: start;
+}
+
+.main-box .right-box .form-box form .buton {
+  background-color: #e8491d;
+  border: none;
+  text-align: center;
+  padding: 0.5rem 1.2rem;
+  color: white;
+  margin-top: 5px;
+}
+
+.main-box .right-box .form-box form .buton:hover {
+  cursor: pointer;
+  background-color: #ee562c;
+}
+
+.main-box .right-box h4 {
+  margin: 15px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 1rem;
+  background-color: #35424a;
+}
+footer p {
+  color: white;
+}
+footer img {
+  width: 120px;
+}

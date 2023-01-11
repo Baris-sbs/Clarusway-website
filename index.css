@@ -4,15 +4,20 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+body {
+  position: relative;
+}
 .title a {
   color: white;
 }
 
-a.home, .services {
+a.home,
+.services {
   color: #a9508b;
 }
 
-h1 {
+.nav h1 {
   font-size: 1.7rem;
 }
 
@@ -39,6 +44,14 @@ h1 {
   list-style: none;
   gap: 1.2rem;
   font-size: 0.7rem;
+}
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35424a;
+  color: white;
+  padding: 1.4rem;
 }
 .right input {
   padding: 0.3rem;
@@ -75,13 +88,7 @@ h1 {
   margin-top: 15px;
   font-size: 1.2rem;
 }
-.subscribe {
-  display: flex;
-  justify-content: space-between;
-  background-color: #35424a;
-  color: white;
-  padding: 1.4rem;
-}
+
 .language {
   display: flex;
   justify-content: space-around;
